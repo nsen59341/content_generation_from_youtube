@@ -39,7 +39,7 @@ export const VideoCard: React.FC<VideoCardProps> = ({ metadata, onNext, showSumm
               className="w-full bg-white hover:bg-blue-600 text-black hover:text-white font-black py-6 rounded-2xl transition-all flex items-center justify-center gap-4 group/btn shadow-xl hover:shadow-blue-500/20"
             >
               <span className="tracking-[0.2em] text-sm">LAUNCH IMPACT ANALYSIS</span>
-              <span className="group-hover/btn:translate-x-2 transition-transform">>>></span>
+              <span className="group-hover/btn:translate-x-2 transition-transform">&gt;&gt;&gt;</span>
             </button>
           ) : (
             <div className="bg-slate-950/60 p-10 rounded-[2rem] border border-white/5 animate-in fade-in slide-in-from-right-8 duration-1000 shadow-inner relative overflow-hidden">

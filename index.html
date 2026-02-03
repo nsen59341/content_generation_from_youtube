@@ -42,7 +42,6 @@
             text-shadow: 0 0 15px var(--glow-blue);
         }
         
-        /* Scanline Effect */
         .scanline {
             width: 100%;
             height: 2px;
@@ -79,12 +78,11 @@
         .animate-float {
             animation: float 8s ease-in-out infinite;
         }
-
-        /* Polyfill for process.env in browser */
-        <script>
-            window.process = window.process || { env: {} };
-        </script>
     </style>
+    <script>
+        // Polyfill for process.env in browser
+        window.process = window.process || { env: {} };
+    </script>
 <script type="importmap">
 {
   "imports": {
@@ -100,7 +98,6 @@
 <body>
     <div class="scanline"></div>
     <div id="root"></div>
-    <!-- CRITICAL: The application entry point -->
     <script type="module" src="./index.tsx"></script>
 </body>
 </html>
