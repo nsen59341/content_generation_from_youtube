@@ -1,0 +1,8 @@
+{
+  "name": "Ultimate Content Repurposer",
+  "description": "A high-end social media strategist agent that transforms YouTube videos into viral content for LinkedIn, Instagram, X, and more using advanced Gemini models.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
